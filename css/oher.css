@@ -1,0 +1,27 @@
+body {
+    background-color: aqua;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 250%;
+}
+
+p {
+    text-align: center;
+    font-size: 200%;
+}
+
+.home {
+    text-align: center;
+}
+
+.home a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    background-color: black;
+}

@@ -1,0 +1,258 @@
+* {
+    margin: 0%;
+}
+
+body {
+    background-image: url(../img/pybg.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: lightgreen;
+    font-size: 5PC;
+}
+.CS{
+
+    color: black;
+    font-size: 250%;
+    text-align: center;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a {
+    float: right;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.home a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: black;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: skyblue;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: lightgreen;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.videos {
+    color: black;
+    text-align: center;
+    border: solid white;
+    width: 200px;
+    height: 500px;
+    background-color: transparent;
+    margin: 25px;
+    margin-left: 100px;
+}
+
+.videos ul {
+    overflow: hidden;
+}
+
+.videos ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.videos ul li {
+    text-align: left;
+    padding-top: 10px;
+}
+
+.video {
+    color: black;
+    text-align: center;
+    border: solid white;
+    width: 200px;
+    height: 500px;
+    background-color: transparent;
+    margin-left:420px;
+    margin-top: -529px;
+}
+
+.video ul {
+    overflow: hidden;
+}
+
+.video ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.video ul li {
+    text-align: left;
+    padding-top: 10px;
+}
+
+.js {
+    color: black;
+    text-align: center;
+    border: solid white;
+    width: 200px;
+    height: 500px;
+    background-color: transparent;
+    margin-left: 700px;
+    margin-top: -505px;
+}
+
+.js ul {
+    overflow: hidden;
+}
+
+.js ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.js ul li {
+    text-align: left;
+    padding-top: 10px;
+}
+.js2 {
+    color: black;
+    text-align: center;
+    border: solid white;
+    width: 200px;
+    height: 500px;
+    background-color: transparent;
+    margin-left: 950px;
+    margin-top: -505px;
+}
+
+.js2 ul {
+    overflow: hidden;
+}
+
+.js2 ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.js2 ul li {
+    text-align: left;
+    padding-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        width: 100%;
+    }
+    h1 {
+        text-align: center;
+        color: black;
+        font-size: 150%;
+    }
+    .CS{
+
+        color:black;
+        text-align: center;
+        font-size: 120%;
+    }
+    .videos {
+        color: gold;
+        text-align: center;
+        border: solid black;
+        width: 270px;
+        height: 450px;
+        background-color: transparent;
+        margin: 15%;
+    }
+    .videos ul li a {
+        color: black;
+    }
+    .video {
+        color: purple;
+        text-align: center;
+        border: solid black;
+        width: 270px;
+        height: 400px;
+        background-color: transparent;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+    .video ul li a {
+        text-decoration: none;
+        color: black;
+    }
+    .js {
+        color: black;
+        border: solid black;
+        width: 270px;
+        height: 300%;
+        margin-left: 15%;
+        margin-top: 7%;
+    }
+    .js ul li a {
+        text-decoration: none;
+        color: black;
+    }
+    .js2 {
+        color:orange;
+        border: solid black;
+        height: 200;
+        width: 270px;
+        margin-left: 15%;
+        margin-top: 7%;
+    }
+    .js2 ul li a {
+        text-decoration: none;
+        color: black;
+    }
+}

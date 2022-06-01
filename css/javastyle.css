@@ -1,0 +1,252 @@
+* {
+    margin: 0%;
+}
+
+.logo {
+    height: 21pc;
+    width: 80pc;
+}
+
+body {
+    background-image: url(../img/javabg.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: lightseagreen;
+    font-size: 5PC;
+}
+.CS{
+
+    color: black;
+    font-size: 250%;
+    text-align: center;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a {
+    float: right;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.home a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: black;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: skyblue;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: lightgreen;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.videos {
+    color: white;
+    text-align: center;
+    border: solid lightblue;
+    width: 200px;
+    height: 500px;
+    background-color: transparent;
+    margin: 25px;
+}
+
+.videos ul {
+    overflow: hidden;
+}
+
+.videos ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.videos ul li {
+    text-align: left;
+    padding-top: 10px;
+}
+
+.video {
+    color: white;
+    text-align: center;
+    border: solid lightblue;
+    width: 200px;
+    height: 500px;
+    background-color: transparent;
+    margin-left: 300px;
+    margin-top: -248%;
+}
+
+.video ul {
+    overflow: hidden;
+}
+
+.video ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.video ul li {
+    text-align: left;
+    padding-top: 10px;
+}
+
+.js {
+    color: white;
+    text-align: center;
+    border: solid lightblue;
+    width: 200px;
+    height: 500px;
+    background-color: transparent;
+    margin-left: 580px;
+    margin-top: -505px;
+}
+
+.js ul {
+    overflow: hidden;
+}
+
+.js ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.js ul li {
+    text-align: left;
+    padding-top: 10px;
+}
+
+.js2 {
+    color: white;
+    text-align: center;
+    border: solid lightblue;
+    width: 200px;
+    height: 504px;
+    background-color: transparent;
+    margin-left: 860px;
+    margin-top: -505px;
+}
+
+.js2 ul {
+    overflow: hidden;
+}
+
+.js2 ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.js2 ul li {
+    text-align: left;
+    padding-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        width: 100%;
+    }
+    h1 {
+        text-align: center;
+        color: green;
+        font-size: 150%;
+    }
+    .CS{
+
+        color:lightseagreen;
+        text-align: center;
+        font-size: 120%;
+    }
+    .videos {
+        color: white;
+        text-align: center;
+        border: solid white;
+        width: 270px;
+        height: 420px;
+        background-color: transparent;
+        margin-left: 15%;
+    }
+    .video {
+        color: white;
+        text-align: center;
+        border: solid white;
+        width: 270px;
+        height: 420px;
+        background-color: transparent;
+        margin-left:-1%;
+        margin-top: 7%;
+    }
+    .video ul li a {
+        text-decoration: none;
+        color: white;
+    }
+    .js {
+        color: white;
+        border: solid white;
+        width: 270px;
+        height: 410px;
+        margin-left: -1%;
+        margin-top: 5%;
+    }
+    .js2 {
+        color: white;
+        border: solid white;
+        width: 270px;
+        height: 350px;
+        margin-left: -1%;
+        margin-top: 9%;
+    }
+}

@@ -154,7 +154,9 @@ h2 {
         display: flex;
     }
     .image li {
+
         padding-left: 60px;
+margin-top:20%;
         padding-top: 60px;
     }
     .image li img {

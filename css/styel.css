@@ -161,5 +161,10 @@ h2 {
         height: 50px;
         width: 60px;
     }
+.bs {
+        margin-top:50%;
+        text-align: justify;
+        font-size: 60%;
+    }
     
 }
